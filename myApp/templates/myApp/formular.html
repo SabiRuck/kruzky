@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kružky</title>
+    <link rel="stylesheet" href="{% static 'myApp/form.css' %}">
+</head>
+<body>
+
+<div id="calc">
+    <h1>Pridanie krúžku</h1>
+</div>
+
+<form method="post">
+    {% csrf_token %}
+    <div class="nav-buttons">
+        <a href="{% url 'index' %}" class="btn"> Zobraziť krúžky</a>
+    </div>
+
+    <input type="text" name="nazov" placeholder="Názov krúžku">
+    
+    <input type="text" name="den" placeholder="Deň (napr. Pondelok)">
+    
+    <input type="text" name="miestnost" placeholder="Miestnosť">
+    
+    <input type="text" name="veduci" placeholder="Meno vedúceho">
+    
+    <input type="email" name="email" placeholder="Email vedúceho">
+
+    <h2>
+        {{ vysledok }}
+    </h2>
+
+    <input type="submit" value="Uložiť">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+meno,email
+Petka Sokovana,petra.sokovana13@gmail.com
+Peter Remis,peter.remis@spsit.com
+Peter Sovik,sovik@spsit.com
+Lenka Vnukova,lenka.vnukova@spsit.com
+Zuzana Pollaková,pollakova@spsit.com
+Dušan Šrenkel,srenkel@spsit.com
+Martin Cvinček,cvincek@spsit.com
+Jana Kovačová,jana.kovacova@spsit.com
+Miroslav Horák,miroslav.horak@spsit.com
+Monika Krajčová,monika.krajcova@spsit.com
+Ivan Novák,ivan.novak@spsit.com
+Peter Hlinka,peter.hlinka@spsit.com
+Sofia Kráľová,sofia.kralova@spsit.com
+Filip Mikuláš,filip.mikulas@spsit.com
+Barbora Smrčková,barbora.smrckova@spsit.com
+Adam Zelený,adam.zeleny@spsit.com
+Veronika Horváthová,veronika.horvathova@spsit.com
+Marcel Dubovský,marcel.dubovsky@spsit.com
+Daniel Martinovič,daniel.martinovic@spsit.com

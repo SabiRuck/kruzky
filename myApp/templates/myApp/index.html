@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'myApp/style.css' %}">
+    <title>Kruzky</title>
+</head>
+<body>
+    
+    <h2>Kruzky</h2>
+    <div class="nav-buttons">
+        <a href="{% url 'formular' %}" class="btn">➕ Pridať krúžok</a>
+    </div>
+    <table>
+        <tr> 
+            <th> nazov kruzku</th>
+            <th> den</th>
+            <th> miestnost</th>
+            <th> meno veduceho</th>
+            <th> e-mail veduceho</th>
+        </tr>
+        {% for kruzok in kruzky %}
+        <tr>
+                <td>{{kruzok.nazov}}</td>
+                <td>{{kruzok.den}}</td>
+                <td>{{kruzok.miestnost}}</td>
+                <td>{{kruzok.veduci.meno}}</td>
+                <td>{{kruzok.veduci.email}}</td>
+
+        </tr>
+        {% endfor%}
+
+    </table>
+    
+</body>
+</html>

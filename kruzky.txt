@@ -1,0 +1,21 @@
+nazov,den,miestnost,email
+Lyžovanie,Streda,u medveďa,petra.sokovana13@gmail.com
+Spoločenské hry,Streda,906,peter.remis@spsit.com
+Fotografický,Pondelok,TEI6,sovik@spsit.com
+Matematika pre Atčkarov,Utorok,404,lenka.vnukova@spsit.com
+Programovanie,Štvrtok,707,peter.remis@spsit.com
+Photoshop,Utorok,P1,pollakova@spsit.com
+Robotika,Streda,D7,srenkel@spsit.com
+Web development,Streda,P1,cvincek@spsit.com
+3D tlač,Piatok,303,jana.kovacova@spsit.com
+Kreslenie a maľovanie,Pondelok,205,miroslav.horak@spsit.com
+Hudobný,Piatok,407,monika.krajcova@spsit.com
+Tanečný,Utorok,505,ivan.novak@spsit.com
+Astronómia,Štvrtok,TEI2,peter.hlinka@spsit.com
+Chemický,Piatok,LAB1,sofia.kralova@spsit.com
+Šachový,Streda,102,filip.mikulas@spsit.com
+Anglický jazyk,Pondelok,309,barbora.smrckova@spsit.com
+Debatný,Štvrtok,410,adam.zeleny@spsit.com
+Fitness,Streda,GYM1,veronika.horvathova@spsit.com
+Hádzaná,Piatok,H1,marcel.dubovsky@spsit.com
+Videohry a e-sport,Utorok,606,daniel.martinovic@spsit.com

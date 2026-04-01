@@ -1,0 +1,90 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Body – rovnaký vibe ako index */
+  body {
+    background: linear-gradient(135deg, #c3dafe, #e0e7ff);
+    color: #2d3748;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15px;
+  }
+  
+  /* Header */
+  #calc {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #calc h1 {
+    color: #2b6cb0;
+    margin-top: 10px;
+  }
+  
+  /* Navigácia */
+  .nav-buttons {
+    margin-bottom: 20px;
+  }
+  
+  /* Button */
+  .btn {
+    display: inline-block;
+    background: #3182ce;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.2s;
+  }
+  
+  .btn:hover {
+    background: #2b6cb0;
+  }
+  
+  /* Form */
+  form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Inputy */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  
+  /* Submit */
+  input[type="submit"] {
+    background: #3182ce;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  input[type="submit"]:hover {
+    background: #2b6cb0;
+  }
+  
+  /* Výsledok */
+  h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #2b6cb0;
+    text-align: center;
+  }
